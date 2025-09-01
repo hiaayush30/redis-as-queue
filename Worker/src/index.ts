@@ -1,7 +1,7 @@
 import { createClient } from "redis";
 
 
-const client = createClient();
+const client = createClient( );
 client.connect()
     .then(async () => {
         while (true) {
